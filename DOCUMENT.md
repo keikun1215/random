@@ -26,3 +26,9 @@ Generate random numbers by seeding
 useable: `ascii`, `lowercase`, `uppercase`, `alphabet`, `number`, `alphanumeric`, `symbol`
 
 Generate a random string
+
+### choice
+- `arr` {Array} Selection target array
+- `secure` {Boolean} Whether to select by secure random numbers
+
+Selects a random element from an array
